@@ -27,7 +27,7 @@ setuptools.setup(
       'Programming Language :: Python :: 3.5',
       'Programming Language :: Python :: 3.6',
       'Programming Language :: Python :: 3.7',      
-      "OPERATING SYSTEM :: MICROSOFT :: WINDOWS",
+      "Operating System :: Microsoft :: Windows",
     ],
     ext_modules=[
         Extension('actontext_internal', ['native/actonext.cpp'])],
