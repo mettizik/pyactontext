@@ -1,11 +1,9 @@
 from distutils.core import setup, Extension
 
-setup(name='actontext', version='1.0', )
-
 setup(
   name = 'actontext',
   packages = ['actontext'],
-  version = '0.1',
+  version = '0.2',
   license='MIT',
   description = """
 This module provides functions to load COM DLL on Windows machine, to avoid registering it in Windows registry.
@@ -19,7 +17,7 @@ The main use case for module could be lightweight testing of COM objects, create
   author = 'Mokych Andrey',
   author_email = 'mokych.apriorit@gmail.com',
   url = 'https://github.com/mettizik/pyactontext',
-  download_url = 'https://github.com/mettizik/pyactontext/archive/v0.1.tar.gz',
+  download_url = 'https://github.com/mettizik/pyactontext/archive/v0.2.tar.gz',
   keywords = ['COM', 'ATL', 'side-by-side', 'activation context'],
   classifiers=[
     'Development Status :: 3 - Alpha',
