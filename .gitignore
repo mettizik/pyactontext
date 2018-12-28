@@ -1,0 +1,13 @@
+temp
+reports
+build
+*.pyc
+**/__pycache__/*
+/.vscode/tags
+/.vscode/.ropeproject
+.gauge
+logs
+*.log
+.scannerwork
+.cache
+paths.json
