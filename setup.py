@@ -1,7 +1,7 @@
 import setuptools
 from distutils.core import Extension
 
-with open("README.md", "r") as fh:
+with open("README.MD", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
