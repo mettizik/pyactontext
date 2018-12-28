@@ -11,3 +11,6 @@ logs
 .scannerwork
 .cache
 paths.json
+dist
+*.egg-info
+MANIFEST
