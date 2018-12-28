@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name = 'actontext',
     packages = ['actontext'],
-    version = '0.2',
+    version = '0.2.1',
     license='MIT',
     description = "This module provides functions to load COM DLL on Windows machine, to avoid registering it in Windows registry.",
     long_description=long_description,
@@ -15,7 +15,7 @@ setuptools.setup(
     author = 'Mokych Andrey',
     author_email = 'mokych.apriorit@gmail.com',
     url = 'https://github.com/mettizik/pyactontext',
-    download_url = 'https://github.com/mettizik/pyactontext/archive/v0.2.tar.gz',
+    download_url = 'https://github.com/mettizik/pyactontext/archive/v0.2.1.tar.gz',
     keywords = ['COM', 'ATL', 'side-by-side', 'activation context'],
     classifiers=[
       'Development Status :: 3 - Alpha',
